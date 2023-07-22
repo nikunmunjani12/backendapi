@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 
 import '0-Model-Responce-use.dart';
 import '0-Model-categoryuse.dart';
+import '10_lflutter_lifecycle.dart';
 import '2-StreamBuilder.dart';
 import '3-2-API-GetdataColl.dart';
 import '3-3-Api-Colling-Page.dart';
@@ -12,6 +13,8 @@ import '5-Search-TextField-Data.dart';
 import '6-1-POST-Api.dart';
 import '6-2-Post-TextFeild.dart';
 import 'View/HomeScreen/home_Screen-2.dart';
+import 'Widget/ApiTask.dart';
+import 'Widget/demo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ApiSearchPage1(),
+      home: DemoTask(),
     );
   }
 }

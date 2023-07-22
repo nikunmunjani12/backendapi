@@ -1,7 +1,6 @@
 import 'package:backendapi/Model/Response/product_response_model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-
 import 'Api/Api-Routeds/dart-file.dart';
 import 'Model/Response/produt_details_response_model.dart';
 
